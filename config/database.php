@@ -59,7 +59,7 @@ return [
         ],
 
         /* change for Heroku's DATABASE_URL */
-        'pgsql' => [
+/*        'pgsql' => [
             'driver'   => 'pgsql',
             'host'     => $url["host"],
             'database' => substr($url["path"], 1),
@@ -80,7 +80,7 @@ return [
             'charset' => 'utf8',
             'prefix' => '',
         ],
-
+*/
     ],
 
     /*
